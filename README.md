@@ -12,10 +12,6 @@
 | `/home`      | Live streak based on your WakaTime activity (optional – requires `WAKATIME_API_KEY`). |
 | `/home/1..3` | The three mock cases described in the task brief.                                     |
 
-<p align="center">
-  <img src="docs/screenshot-live.png" width="700" alt="live streak demo"/>
-</p>
-
 ---
 
 ## 2 · Repository layout
