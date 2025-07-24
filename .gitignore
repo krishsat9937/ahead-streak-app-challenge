@@ -1,0 +1,67 @@
+# ──────────────────────────────────────────────
+# Node / pnpm
+# ──────────────────────────────────────────────
+node_modules/
+.pnpm/
+.pnpm-debug.log*
+npm-debug.log*
+*.tgz
+
+# pnpm workspace lockfile in sub‑packages (we keep only root lockfile)
+apps/*/pnpm-lock.yaml
+packages/*/pnpm-lock.yaml
+
+# ──────────────────────────────────────────────
+# TypeScript
+# ──────────────────────────────────────────────
+*.tsbuildinfo
+
+# compiled JS / declaration output (if you run tsc -p)
+dist/
+packages/*/dist/
+apps/*/dist/
+
+# ──────────────────────────────────────────────
+# Next.js / React build artifacts
+# ──────────────────────────────────────────────
+.next/
+out/                 # if you export static
+.vercel/
+turbopack/
+
+# ──────────────────────────────────────────────
+# Testing
+# ──────────────────────────────────────────────
+coverage/
+*.lcov
+
+# Jest cache
+.jest/
+
+# ──────────────────────────────────────────────
+# VS Code / editors
+# ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.sw?
+.DS_Store
+
+# ──────────────────────────────────────────────
+# Environment & secrets
+# ──────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.*.example
+*.key
+*.pem
+
+# ──────────────────────────────────────────────
+# Logs / misc
+# ──────────────────────────────────────────────
+logs/
+*.log
+*.log.*
+*.pid
+*.seed
+*.dump

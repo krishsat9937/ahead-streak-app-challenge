@@ -1,0 +1,9 @@
+{
+  "days": [
+    { "date": "2024-02-22", "activities": 1 },
+    { "date": "2024-02-23", "activities": 1 },
+    { "date": "2024-02-24", "activities": 0 },
+    { "date": "2024-02-25", "activities": 0 },
+    { "date": "2024-02-26", "activities": 1 }
+  ]
+}
